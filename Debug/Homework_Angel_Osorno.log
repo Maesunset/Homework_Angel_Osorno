@@ -1,0 +1,4 @@
+﻿  Homework_Angel_Osorno.cpp
+C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\Lib_Homework.h(51,29): warning C4018: '<=': no coinciden signed/unsigned
+C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\Lib_Homework.h(64,30): warning C4018: '>=': no coinciden signed/unsigned
+  Homework_Angel_Osorno.vcxproj -> C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\Debug\Homework_Angel_Osorno.exe
