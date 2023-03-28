@@ -10,18 +10,16 @@ int main()
 	{
 		system("cls");
 		cout << "-----------Menu----------" << endl;
-		cout << "1) para ir a guess my number" << endl;
-		cout << "2) Para ir a mini calculadora" << endl;
-		cout << "3) Para salir" << endl;
+		cout << "1) Tarea 1" << endl;
+		cout << "2) Para salir" << endl;
 			cin >> menu;
 		switch (menu)
 		{
 			//case guess my number
 			case 1:
-				Guess_My_Number();
+				Tarea_1();
 				break;
 			case 2:
-				calculadora();
 				break;
 			case 3:
 				cout << " gracias vuelva pronto" << endl;
