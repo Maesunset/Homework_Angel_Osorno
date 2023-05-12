@@ -142,6 +142,7 @@
     <ClCompile Include="Homework_Angel_Osorno.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Homework_Segundo_Parcial.h" />
     <ClInclude Include="Lib_Homework.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

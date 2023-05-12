@@ -1,6 +1,7 @@
 // Programa compilatorio de tareas del alumno Angel Jared Osorno Lares
 #include <iostream>
 #include "Lib_Homework.h"
+#include "Homework_Segundo_Parcial.h"
 using namespace std;
 int main()
 {
@@ -11,7 +12,8 @@ int main()
 		system("cls");
 		cout << "-----------Menu----------" << endl;
 		cout << "1) Tarea 1" << endl;
-		cout << "2) Para salir" << endl;
+		cout << "2) Tarea 2 (ahorcado)" << endl;
+		cout << "3) Para salir" << endl;
 			cin >> menu;
 		switch (menu)
 		{
@@ -20,6 +22,7 @@ int main()
 				Tarea_1();
 				break;
 			case 2:
+				ahorcado();
 				break;
 			case 3:
 				cout << " gracias vuelva pronto" << endl;
