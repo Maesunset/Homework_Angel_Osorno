@@ -2,6 +2,8 @@
 #include <iostream>
 #include "Lib_Homework.h"
 #include "Homework_Segundo_Parcial.h"
+#include "tercer_Parcial.h"
+
 using namespace std;
 int main()
 {
@@ -13,7 +15,8 @@ int main()
 		cout << "-----------Menu----------" << endl;
 		cout << "1) Tarea 1" << endl;
 		cout << "2) Tarea 2 (ahorcado)" << endl;
-		cout << "3) Para salir" << endl;
+		cout << "3) tercer parcial" << endl;
+		cout << "4) Para salir" << endl;
 			cin >> menu;
 		switch (menu)
 		{
@@ -25,6 +28,9 @@ int main()
 				ahorcado();
 				break;
 			case 3:
+				Menu3P();
+				break;
+			case 4:
 				cout << " gracias vuelva pronto" << endl;
 				salir = false;
 				break;

@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="Homework_Segundo_Parcial.h" />
     <ClInclude Include="Lib_Homework.h" />
+    <ClInclude Include="tercer_Parcial.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

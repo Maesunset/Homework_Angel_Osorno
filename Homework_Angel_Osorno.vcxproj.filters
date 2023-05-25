@@ -26,5 +26,8 @@
     <ClInclude Include="Homework_Segundo_Parcial.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="tercer_Parcial.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
