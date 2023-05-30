@@ -278,13 +278,63 @@ void victory(int empate, bool &endgame, char board[][3], int ROWS, int COLUMS)
 		cout << "ho no esto fue un enmpate" << endl;
 		endgame = false;
 	}
-
+	//condiciones de victoria
 	if (board[0][0] == 'X' && board[0][1] == 'X' && board[0][2] == 'X')
 	{
 		cout << "Gano el player 1" << endl;
 			endgame = false;
 	}
 	if (board[0][0] == 'o' && board[0][1] == 'o' && board[0][2] == 'o')
+	{
+		cout << "Gano el player 2" << endl;
+		endgame = false;
+	}
+	if (board[1][0] == 'X' && board[1][0] == 'X' && board[1][0] == 'X')
+	{
+		cout << "Gano el player 1" << endl;
+		endgame = false;
+	}
+	if (board[1][0] == 'o' && board[1][0] == 'o' && board[1][0] == 'o')
+	{
+		cout << "Gano el player 2" << endl;
+		endgame = false;
+	}
+	if (board[0][2] == 'X' && board[1][2] == 'X' && board[2][2] == 'X')
+	{
+		cout << "Gano el player 1" << endl;
+		endgame = false;
+	}
+	if (board[0][2] == 'o' && board[1][2] == 'o' && board[2][2] == 'o')
+	{
+		cout << "Gano el player 2" << endl;
+		endgame = false;
+	}
+	if (board[2][0] == 'X' && board[2][1] == 'X' && board[2][2] == 'X')
+	{
+		cout << "Gano el player 1" << endl;
+		endgame = false;
+	}
+	if (board[2][0] == 'o' && board[2][1] == 'o' && board[2][2] == 'o')
+	{
+		cout << "Gano el player 2" << endl;
+		endgame = false;
+	}
+	if (board[0][0] == 'X' && board[1][1] == 'X' && board[2][2] == 'X')
+	{
+		cout << "Gano el player 1" << endl;
+		endgame = false;
+	}
+	if (board[0][0] == 'o' && board[1][1] == 'o' && board[2][2] == 'o')
+	{
+		cout << "Gano el player 2" << endl;
+		endgame = false;
+	}
+	if (board[0][2] == 'X' && board[1][1] == 'X' && board[2][0] == 'X')
+	{
+		cout << "Gano el player 1" << endl;
+		endgame = false;
+	}
+	if (board[0][2] == 'o' && board[1][1] == 'o' && board[2][0] == 'o')
 	{
 		cout << "Gano el player 2" << endl;
 		endgame = false;
