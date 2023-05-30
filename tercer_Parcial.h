@@ -21,8 +21,8 @@ void Menu3P()
 	case 1:
 		tikTakToe();
 		break;
-
 	default:
+		cout << " Eleccion no valida intente de nuevo" << endl;
 		break;
 	}
 }
@@ -52,37 +52,104 @@ void tikTakToe()
 				switch (player)
 				{
 				case 0:
-					board[0][0] = 'X';
+					if (board[0][0] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					} 
+					else
+					{
+						board[0][0] = 'X';
+					}
 					break;
 				case 1:
-					board[0][1] = 'X';
+					if (board[0][1] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[0][1] = 'X';
+					}
 					break;
 				case 2:
-					board[0][2] = 'X';
+					if (board[0][2] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[0][2] = 'X';
+					}
 					break;
 				case 3:
-					board[1][0] = 'X';
+					if (board[1][0] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[1][0] = 'X';
+					}
 					break;
 				case 4:
-					board[1][1] = 'X';
+					if (board[1][1] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[1][1] = 'X';
+					}
 					break;
 				case 5:
-					board[1][2] = 'X';
+					if (board[1][2] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[1][2] = 'X';
+					}
 					break;
 				case 6:
-					board[2][0] = 'X';
+					if (board[2][0] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[2][0] = 'X';
+					}
 					break;
 				case 7:
-					board[2][1] = 'X';
+					if (board[2][1] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[2][1] = 'X';
+					}
 					break;
 				case 8:
-					board[2][2] = 'X';
+					if (board[2][2] == 'x')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[2][2] = 'X';
+					}
 					break;
 				default:
 					cout << "opcion invalida, se le saltara el turno por gracioso" << endl;
 					break;
 				}
 				empate++;
+				if (endgame==false)
+				{
+					break;
+				}
 				victory(empate, endgame, board, ROWS, COLUMS);
 				//player 2 juega
 				showBoard(board, ROWS, COLUMS);
@@ -91,31 +158,94 @@ void tikTakToe()
 				switch (player)
 				{
 				case 0:
-					board[0][0] = 'O';
+					if (board[0][0] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[0][0] = 'o';
+					}
 					break;
 				case 1:
-					board[0][1] = 'O';
+					if (board[0][1] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[0][1] = 'o';
+					}
 					break;
 				case 2:
-					board[0][2] = 'O';
+					if (board[0][2] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[0][2] = 'o';
+					}
 					break;
 				case 3:
-					board[1][0] = 'O';
+					if (board[1][0] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[1][0] = 'o';
+					}
 					break;
 				case 4:
-					board[1][1] = 'O';
+					if (board[1][1] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[1][1] = 'o';
+					}
 					break;
 				case 5:
-					board[1][2] = 'O';
+					if (board[1][2] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[1][2] = 'o';
+					}
 					break;
 				case 6:
-					board[2][0] = 'O';
+					if (board[2][0] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[2][0] = 'o';
+					}
 					break;
 				case 7:
-					board[2][1] = 'O';
+					if (board[2][1] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[2][1] = 'o';
+					}
 					break;
 				case 8:
-					board[2][2] = 'O';
+					if (board[2][2] == 'o')
+					{
+						cout << "el espacio ya esta ocupado, intente con uno nuevo" << endl;
+					}
+					else
+					{
+						board[2][2] = '0';
+					}
 					break;
 				default:
 					cout << "opcion invalida, se le saltara el turno por gracioso" << endl;
@@ -142,11 +272,22 @@ void showBoard(char board[][3], int ROWS, int COLUMS)
 }
 void victory(int empate, bool &endgame, char board[][3], int ROWS, int COLUMS)
 {
-
 	//condicion de empate
-	if (empate==8)
+	if (empate == 8)
 	{
 		cout << "ho no esto fue un enmpate" << endl;
 		endgame = false;
 	}
+
+	if (board[0][0] == 'X' && board[0][1] == 'X' && board[0][2] == 'X')
+	{
+		cout << "Gano el player 1" << endl;
+			endgame = false;
+	}
+	if (board[0][0] == 'o' && board[0][1] == 'o' && board[0][2] == 'o')
+	{
+		cout << "Gano el player 2" << endl;
+		endgame = false;
+	}
+
 }

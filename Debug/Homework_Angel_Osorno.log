@@ -1,5 +1,6 @@
 ﻿  Homework_Angel_Osorno.cpp
 C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\Homework_Segundo_Parcial.h(52,23): warning C4018: '<': no coinciden signed/unsigned
 C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\Homework_Segundo_Parcial.h(72,22): warning C4018: '<': no coinciden signed/unsigned
-C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\tercer_Parcial.h(132,11): warning C4551: la llamada a la función no tiene lista de argumentos
-  Homework_Angel_Osorno.vcxproj -> C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\Debug\Homework_Angel_Osorno.exe
+C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\tercer_Parcial.h(59,6): error C2181: 'else' no válido sin el correspondiente 'if'
+C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\tercer_Parcial.h(143,11): warning C4551: la llamada a la función no tiene lista de argumentos
+C:\Users\jared\source\repos\Codigos_uniat\Homework_Angel_Osorno\tercer_Parcial.h(55,29): warning C4390: ';': se encontró una instrucción controlada vacía; ¿es esa la intención?
